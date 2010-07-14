@@ -13,6 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		A95BCCDD11ED4190005D672C /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = A95BCCDC11ED4190005D672C /* XPathQuery.m */; };
+		A95BCD0111ED449A005D672C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A95BCD0011ED449A005D672C /* libxml2.dylib */; };
 		A99A7F0411EBAE2200E1578A /* ImageskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A99A7F0211EBAE2200E1578A /* ImageskViewController.m */; };
 		A99A7F0511EBAE2200E1578A /* ImageskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99A7F0311EBAE2200E1578A /* ImageskViewController.xib */; };
 /* End PBXBuildFile section */
@@ -28,6 +30,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Imagesk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imagesk_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Imagesk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Imagesk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A95BCCDB11ED4190005D672C /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = ../Imagesk/XPathQuery.h; sourceTree = SOURCE_ROOT; };
+		A95BCCDC11ED4190005D672C /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = ../Imagesk/XPathQuery.m; sourceTree = SOURCE_ROOT; };
+		A95BCD0011ED449A005D672C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		A99A7F0111EBAE2200E1578A /* ImageskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageskViewController.h; path = ../ImageskViewController.h; sourceTree = "<group>"; };
 		A99A7F0211EBAE2200E1578A /* ImageskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageskViewController.m; path = ../ImageskViewController.m; sourceTree = "<group>"; };
 		A99A7F0311EBAE2200E1578A /* ImageskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageskViewController.xib; sourceTree = "<group>"; };
@@ -41,6 +46,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				A95BCD0111ED449A005D672C /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +56,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A95BCCDB11ED4190005D672C /* XPathQuery.h */,
+				A95BCCDC11ED4190005D672C /* XPathQuery.m */,
 				A99A7F0211EBAE2200E1578A /* ImageskViewController.m */,
 				A99A7F0111EBAE2200E1578A /* ImageskViewController.h */,
 				1D3623240D0F684500981E51 /* ImageskAppDelegate.h */,
@@ -74,6 +82,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				A95BCD0011ED449A005D672C /* libxml2.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -132,7 +141,7 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Imagesk" */;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "imagesk" */;
 			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 1;
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
@@ -164,6 +173,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ImageskAppDelegate.m in Sources */,
 				A99A7F0411EBAE2200E1578A /* ImageskViewController.m in Sources */,
+				A95BCCDD11ED4190005D672C /* XPathQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +215,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2/;
 				PREBINDING = NO;
 				SDKROOT = iphoneos3.1.3;
 			};
@@ -236,7 +247,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Imagesk" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "imagesk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
