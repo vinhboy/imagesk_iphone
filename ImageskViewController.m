@@ -7,17 +7,16 @@
 //
 
 #import "ImageskViewController.h"
-#import "XPathQuery.h"
 
 @implementation ImageskViewController
 
-@synthesize imageView,choosePhotoBtn,takePhotoBtn,imageData,responseData;
+@synthesize imageView,choosePhotoBtn,takePhotoBtn,imageData,responseData,imageLabel,activityIndicator,imageOverlay;
 
 -(IBAction) getPhoto:(id) sender {
 	UIImagePickerController * picker = [[UIImagePickerController alloc] init];
 	picker.delegate = self;
 	
-	if((UIButton *) sender == choosePhotoBtn) {
+	if((UIBarButtonItem *) sender == choosePhotoBtn) {
 		picker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
 	} else {
 		picker.sourceType = UIImagePickerControllerSourceTypeCamera;
@@ -27,14 +26,12 @@
 }
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
 	[picker dismissModalViewControllerAnimated:YES];
-	imageView.image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
 	
-	UIImage* image = [info valueForKey:@"UIImagePickerControllerOriginalImage"];
-    
-	self.imageData = UIImageJPEGRepresentation(image, 0.85f);
+	imageView.image = [info objectForKey:@"UIImagePickerControllerOriginalImage"];
+	self.imageData = UIImageJPEGRepresentation(imageView.image, 1.0f);
 
 	// Create the request.
-	NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:8080/"] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:160.0];
+	NSURLRequest *theRequest=[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:8080/?upload_url=true"] cachePolicy:NSURLRequestUseProtocolCachePolicy timeoutInterval:60.0];
 	
 	// create the connection with the request
 	// and start loading the data
@@ -42,6 +39,9 @@
 	
 	if (theConnection) {
 		NSLog(@"Retrieving upload url...");
+		activityIndicator.startAnimating;
+		activityIndicator.hidden = NO;
+		imageOverlay.hidden = NO;
 		// Create the NSMutableData to hold the received data.
 		// receivedData is an instance variable declared elsewhere.
 		responseData = [[NSMutableData data] retain];
@@ -61,40 +61,30 @@
 }
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-	NSString *responseString = [[[NSString alloc] initWithBytes:[self.responseData bytes]
-														 length:[self.responseData length]
-													   encoding:NSUTF8StringEncoding] autorelease];
+	NSString *responseString = [[[NSString alloc] initWithBytes:[self.responseData bytes] length:[self.responseData length] encoding:NSUTF8StringEncoding] autorelease];
 	NSLog(@"Upload URL: %@",responseString);
 	
-	NSString *xpathQueryString = @"//div[@id='bd']/form";
-	NSArray *results = PerformHTMLXPathQuery(self.responseData, xpathQueryString);
-	
-	NSLog(@"Libxml Key: %@",[[results objectAtIndex:0] objectForKey:@"nodeAttributeArray"]);
-	
-	NSArray *result = [[results objectAtIndex:0] objectForKey:@"nodeAttributeArray"];
-	
-	for(NSDictionary * attr in result) {
-		NSLog(@"AttributeName: %@",[attr objectForKey:@"attributeName"]);
-		if([[attr objectForKey:@"attributeName"] isEqualToString:@"action"]) {
-			NSLog(@"Attr: %@",[attr objectForKey:@"nodeContent"]);
-		}
+	if (self.imageData) {
+		NSString *boundary = @"---------------------------iMagesk-mUlTiPaRtFoRm";
+		
+		NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:responseString]];
+		[urlRequest setHTTPMethod:@"POST"];
+		[urlRequest setValue: [NSString stringWithFormat:@"multipart/form-data; boundary=%@", boundary] forHTTPHeaderField:@"Content-Type"];
+		 
+		NSMutableData *postData = [NSMutableData data];
+		[postData appendData: [[NSString stringWithFormat:@"--%@\r\nContent-Disposition: form-data; name=\"image_url\";\r\n\r\ntrue\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+		[postData appendData: [[NSString stringWithFormat:@"--%@\r\nContent-Disposition: form-data; name=\"file\"; filename=\"imageskApp.jpg\"\r\nContent-Type: image/jpeg\r\n\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+		[postData appendData: self.imageData];
+		[postData appendData: [[NSString stringWithFormat:@"\r\n--%@--\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
+		self.imageData = nil;
+		
+		[urlRequest setHTTPBody:postData];
+		[NSURLConnection connectionWithRequest:urlRequest delegate:self];
+	} else {
+		activityIndicator.stopAnimating;
+		imageOverlay.hidden = YES;
+		imageLabel.text = responseString;
 	}
-	
-//	if (responseString) {
-//		NSString *boundary = @"---------------------------iMagesk-mUlTiPaRtFoRm";
-//		
-//		NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:responseString]];
-//		[urlRequest setHTTPMethod:@"POST"];
-//		[urlRequest setValue: [NSString stringWithFormat:@"multipart/form-data; boundary=%@", boundary] forHTTPHeaderField:@"Content-Type"];
-//		 
-//		NSMutableData *postData = [NSMutableData data];
-//		[postData appendData: [[NSString stringWithFormat:@"--%@\r\nContent-Disposition: form-data; name=\"file\"; filename=\"imageskApp.jpg\"\r\nContent-Type: image/jpeg\r\n\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-//		[postData appendData: self.imageData];
-//		[postData appendData: [[NSString stringWithFormat:@"\r\n--%@--\r\n", boundary] dataUsingEncoding:NSUTF8StringEncoding]];
-//		 
-//		[urlRequest setHTTPBody:postData];
-//		[NSURLConnection connectionWithRequest:urlRequest delegate:self];
-//	}
 }
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
@@ -106,6 +96,14 @@
     NSLog(@"Connection failed! Error - %@ %@",
           [error localizedDescription],
           [[error userInfo] objectForKey:NSErrorFailingURLStringKey]);
+	
+	UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:@"Connection Failed!" message:[error localizedDescription] delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil] autorelease];
+	[alert show];
+}
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    if (buttonIndex == 0) {
+		[self getPhoto:choosePhotoBtn];
+    }
 }
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -145,6 +143,10 @@
     // e.g. self.myOutlet = nil;
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+	// to fix the controller showing under the status bar
+	self.view.frame = [[UIScreen mainScreen] applicationFrame];
+}
 
 - (void)dealloc {
     [super dealloc];

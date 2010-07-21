@@ -1,0 +1,3 @@
+In file included from /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m:10:
+/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.h:16: error: expected specifier-qualifier-list before 'FancyTextField'
+/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.h:24: error: expected specifier-qualifier-list before 'FancyTextField'

@@ -8,18 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface ImageskViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate> {
 	UIImageView * imageView;
-	UIButton * choosePhotoBtn;
-	UIButton * takePhotoBtn;
+	UIImageView * imageOverlay;
+	UIBarButtonItem * choosePhotoBtn;
+	UIBarButtonItem * takePhotoBtn;
+	UILabel * imageLabel;
+	UIActivityIndicatorView * activityIndicator;
 	NSData * imageData;
 	NSMutableData * responseData;
 }
 
 @property (nonatomic, retain) IBOutlet UIImageView * imageView;
-@property (nonatomic, retain) IBOutlet UIButton * choosePhotoBtn;
-@property (nonatomic, retain) IBOutlet UIButton * takePhotoBtn;
+@property (nonatomic, retain) IBOutlet UIImageView * imageOverlay;
+@property (nonatomic, retain) IBOutlet UIBarButtonItem * choosePhotoBtn;
+@property (nonatomic, retain) IBOutlet UIBarButtonItem * takePhotoBtn;
+@property (nonatomic, retain) IBOutlet UILabel * imageLabel;
+@property (nonatomic, retain) IBOutlet UIActivityIndicatorView * activityIndicator;
 @property (nonatomic, retain) NSData * imageData;
 @property (nonatomic, retain) NSMutableData * responseData;
 

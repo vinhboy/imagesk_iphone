@@ -1,19 +1,16 @@
 TImagesk
 v7
 r0
-t300777125.794276
+t301127449.561567
 cCheck dependencies
-cProcessInfoPlistFile /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Info.plist Imagesk-Info.plist
-cCompileXIB /Users/vinhboy/workspace/iphone/imagesk/MainWindow.xib
-cCompileXIB /Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.xib
-cProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-avwqvpjqwftimdehrigbkeukufym/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o /Users/vinhboy/workspace/iphone/imagesk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o /Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/XPathQuery.o /Users/vinhboy/workspace/iphone/imagesk/../Imagesk/XPathQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk normal i386
-cGenerateDSYMFile /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
-cTouch /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app
+cProcessInfoPlistFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Info.plist Imagesk-Info.plist
+cCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
+cCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
+cCpResource build/Debug-iphonesimulator/Imagesk.app/imageupload.png imageupload.png
+cProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-adgjpixgmiejawfahkudmqwnxvgs/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o /Users/vinhboy/workspace/iphone/Imagesk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 
 N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2/libxml/HTMLparser.h
 c000000004B2B53D30000000000002401
@@ -81,34 +78,34 @@ t1261129038
 s1198416
 
 N/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.h
-c000000004C3BE4CB0000000000000302
-t1278993611
-s770
+c000000004C4174420000000000000452
+t1279358018
+s1106
 i<UIKit/UIKit.h>
 
 N/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m
-c000000004C3C730D000000000000136D
-t1279030029
-s4973
+c000000004C429F8F0000000000001704
+t1279434639
+s5892
 i"ImageskViewController.h"
 
 N/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.h
-c000000004C3B7C1A00000000000001DC
-t1278966810
+c000000004C41098B00000000000001DC
+t1279330699
 s476
 i<UIKit/UIKit.h>
 
 N/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m
-c000000004C3B82E200000000000003CD
-t1278968546
-s973
+c000000004C3E22BD00000000000003CE
+t1279140541
+s974
 i"ImageskAppDelegate.h"
 i"ImageskViewController.h"
 
 N/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.h
-c000000004C3BE4CB0000000000000302
-t1278993611
-s770
+c000000004C4174420000000000000452
+t1279358018
+s1106
 i<UIKit/UIKit.h>
 
 N/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.m
@@ -118,9 +115,9 @@ s1446
 i"ImageskViewController.h"
 
 N/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
-c000000004C3BC0B600000000000057BB
-t1278984374
-s22459
+c000000004C417AE20000000000007275
+t1279359714
+s29301
 
 N/Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch
 c000000004C3B767A00000000000000B7
@@ -130,9 +127,9 @@ i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
 N/Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
-c000000004C3B767A0000000000002108
-t1278965370
-s8456
+c000000004C3DD31D0000000000003E11
+t1279120157
+s15889
 
 N/Users/vinhboy/workspace/iphone/Imagesk/XPathQuery.h
 c0000000049FFCFDF000000000000026A
@@ -140,49 +137,67 @@ t1241501663
 s618
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app
-t1279030038
-s238
+t1279359720
+s306
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM
-t1279030038
+t1279359478
 s102
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
-t1279030038
-s26672
+t1279359478
+s28024
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/ImageskViewController.nib
-t1278984379
-s2944
+t1279359720
+s3799
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Info.plist
 t1278966708
 s593
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/MainWindow.nib
-t1278966708
+t1279120210
 s1360
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/PkgInfo
 t1278966708
 s8
 
+N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/imagesk.gif
+t1279128588
+s9648
+
+N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/imageupload.png
+t1279130635
+s18574
+
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/Imagesk.LinkFileList
-c000000004C3B7BB40000000000000190
-t1278966708
+c000000004C3DD0B20000000000000190
+t1279119538
 s400
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o
-t1278994291
-s39276
+t1279358237
+s39756
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o
-t1279030038
-s48840
+t2
+s0
 
 N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o
-t1278966709
+t1279087182
 s5952
+
+N/Users/vinhboy/workspace/iphone/Imagesk/imagesk.gif
+c000000004C3DF33800000000000025B0
+t1279128376
+s9648
+
+N/Users/vinhboy/workspace/iphone/Imagesk/imageupload.png
+c000000004C3DFB68000000000000488E
+t1279130472
+s18574
 
 N/Users/vinhboy/workspace/iphone/Imagesk/main.m
 c000000004C3B767A0000000000000164
@@ -202,15 +217,15 @@ i<libxml/xpath.h>
 i<libxml/xpathInternals.h>
 
 N/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.h
-c000000004C3BE4CB0000000000000302
-t1278993611
-s770
+c000000004C3DCFB10000000000000356
+t1279119281
+s854
 i<UIKit/UIKit.h>
 
 N/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m
-c000000004C3D471F00000000000015C1
-t1279084319
-s5569
+c000000004C3DCF990000000000001454
+t1279119257
+s5204
 i"ImageskViewController.h"
 i"XPathQuery.h"
 
@@ -228,15 +243,15 @@ i"ImageskAppDelegate.h"
 i"ImageskViewController.h"
 
 N/Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.h
-c000000004C3BE4CB0000000000000302
-t1278993611
-s770
+c000000004C3DD0630000000000000356
+t1279119459
+s854
 i<UIKit/UIKit.h>
 
 N/Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.xib
-c000000004C3BC0B600000000000057BB
-t1278984374
-s22459
+c000000004C3DC8110000000000005C5F
+t1279117329
+s23647
 
 N/Users/vinhboy/workspace/iphone/imagesk/Imagesk_Prefix.pch
 c000000004C3B767A00000000000000B7
@@ -256,20 +271,20 @@ t1241501663
 s618
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app
-t1279084325
+t1279119282
 s238
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM
-t1279084325
+t1279119282
 s102
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
-t1279084325
-s28008
+t1279119282
+s26952
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/ImageskViewController.nib
-t1278984379
-s2944
+t1279119243
+s3390
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Info.plist
 t1278966708
@@ -284,24 +299,24 @@ t1278966708
 s8
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/Imagesk.LinkFileList
-c000000004C3D0CB00000000000000211
-t1279069360
-s529
+c000000004C3D524D0000000000000190
+t1279087181
+s400
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o
-t1279069781
-s39276
+t1279119282
+s39300
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o
-t1279084325
-s48504
+t1279119282
+s50132
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/XPathQuery.o
 t1279069781
 s19920
 
 N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o
-t1279069781
+t1279087182
 s5952
 
 N/Users/vinhboy/workspace/iphone/imagesk/main.m
@@ -322,6 +337,10 @@ N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/Shared
 t2
 s0
 
+N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-btnudvezhxitguhjqrshsgtvahhq/Imagesk_Prefix.pch.gch
+t1279087182
+s13026768
+
 N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-dkfvtsnghaxkjyfpzfiwxtsenbfu/Imagesk_Prefix.pch.gch
 t2
 s0
@@ -337,11 +356,11 @@ s909
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies300777125#300777125#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies301127448#301127448#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s300687091.100884
-e300687091.546570
+s301051037.578919
+e301051037.693764
 r1
 xCompileC
 xbuild/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o
@@ -350,12 +369,12 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m300687091#300687091#0(0"0(0#0#68"/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m4300911832#1906"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-adgjpixgmiejawfahkudmqwnxvgs/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o0#
+lSLF07#2@76"Compile /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m301051037#301051037#0(0"0(0#0#68"/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m4300911832#1906"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-adgjpixgmiejawfahkudmqwnxvgs/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o0#
 
 CCompileC build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s300722838.422454
-e300722838.514966
-r1
+s301127448.230659
+e301127449.561449
+r0
 xCompileC
 xbuild/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o
 x/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m
@@ -363,7 +382,192 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m300722838#300722838#0(0"0(0#0#74"/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m4300911832#1915"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-adgjpixgmiejawfahkudmqwnxvgs/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o0#
+o/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m: In function '-[ImageskViewController connection:didFailWithError:]':
+o/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m:94: error: 'imageskViewController' undeclared (first use in this function)
+o/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m:94: error: (Each undeclared identifier is reported only once
+o/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m:94: error: for each function it appears in.)
+o{standard input}:781:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000005$pb"
+o{standard input}:781:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression
+o{standard input}:771:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000005$pb"
+o{standard input}:771:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:762:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000005$pb"
+o{standard input}:762:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression
+o{standard input}:748:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000005$pb"
+o{standard input}:748:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression
+o{standard input}:743:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000005$pb"
+o{standard input}:743:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:736:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000005$pb"
+o{standard input}:736:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression
+o{standard input}:727:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000005$pb"
+o{standard input}:727:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:719:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"
+o{standard input}:719:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:712:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"
+o{standard input}:712:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:703:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"
+o{standard input}:703:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:699:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"
+o{standard input}:699:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:691:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"
+o{standard input}:691:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:685:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000005$pb"
+o{standard input}:685:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression
+o{standard input}:676:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"
+o{standard input}:676:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:669:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"
+o{standard input}:669:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:660:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"
+o{standard input}:660:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:656:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"
+o{standard input}:656:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:648:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"
+o{standard input}:648:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:641:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"
+o{standard input}:641:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression
+o{standard input}:632:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"
+o{standard input}:632:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:628:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"
+o{standard input}:628:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:620:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000005$pb"
+o{standard input}:620:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:617:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000005$pb"
+o{standard input}:617:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:608:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"
+o{standard input}:608:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression
+o{standard input}:599:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"
+o{standard input}:599:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression
+o{standard input}:595:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"
+o{standard input}:595:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:585:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000005$pb"
+o{standard input}:585:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression
+o{standard input}:575:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000005$pb"
+o{standard input}:575:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression
+o{standard input}:567:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000005$pb"
+o{standard input}:567:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:564:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000005$pb"
+o{standard input}:564:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:561:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000005$pb"
+o{standard input}:561:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:549:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000005$pb"
+o{standard input}:549:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression
+o{standard input}:535:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000005$pb"
+o{standard input}:535:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression
+o{standard input}:526:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000005$pb"
+o{standard input}:526:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression
+o{standard input}:520:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000005$pb"
+o{standard input}:520:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression
+o{standard input}:514:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000005$pb"
+o{standard input}:514:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:507:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000005$pb"
+o{standard input}:507:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression
+o{standard input}:501:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000005$pb"
+o{standard input}:501:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression
+o{standard input}:494:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000005$pb"
+o{standard input}:494:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:491:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"
+o{standard input}:491:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:373:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000004$pb"
+o{standard input}:373:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression
+o{standard input}:342:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"
+o{standard input}:342:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression
+o{standard input}:307:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000002$pb"
+o{standard input}:307:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression
+o{standard input}:301:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"
+o{standard input}:301:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression
+o{standard input}:298:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000002$pb"
+o{standard input}:298:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:291:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"
+o{standard input}:291:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:281:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"
+o{standard input}:281:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression
+o{standard input}:272:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000002$pb"
+o{standard input}:272:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression
+o{standard input}:252:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"
+o{standard input}:252:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression
+o{standard input}:245:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"
+o{standard input}:245:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:242:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000002$pb"
+o{standard input}:242:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:232:non-relocatable subtraction expression, "LC5" minus "L00000000002$pb"
+o{standard input}:232:symbol: "LC5" can't be undefined in a subtraction expression
+o{standard input}:230:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"
+o{standard input}:230:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression
+o{standard input}:223:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"
+o{standard input}:223:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression
+o{standard input}:219:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000002$pb"
+o{standard input}:219:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:216:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"
+o{standard input}:216:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:209:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"
+o{standard input}:209:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression
+o{standard input}:202:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"
+o{standard input}:202:symbol: "LC2" can't be undefined in a subtraction expression
+o{standard input}:196:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000002$pb"
+o{standard input}:196:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression
+o{standard input}:186:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"
+o{standard input}:186:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression
+o{standard input}:176:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"
+o{standard input}:176:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression
+o{standard input}:167:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"
+o{standard input}:167:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression
+o{standard input}:102:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"
+o{standard input}:102:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression
+o{standard input}:92:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:92:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:82:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"
+o{standard input}:82:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression
+o{standard input}:68:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"
+o{standard input}:68:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression
+o{standard input}:59:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"
+o{standard input}:59:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression
+o{standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:50:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"
+o{standard input}:50:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol LC2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol LC5
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_31
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_32
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_33
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_30
+lSLF07#2@82"Compile /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m301127448#301127449#0(19082"/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m: In function '-[ImageskViewController connection:didFailWithError:]':/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m:94: error: 'imageskViewController' undeclared (first use in this function)/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m:94: error: (Each undeclared identifier is reported only once/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m:94: error: for each function it appears in.){standard input}:781:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_30" minus "L00000000005$pb"{standard input}:781:symbol: "L_OBJC_SELECTOR_REFERENCES_30" can't be undefined in a subtraction expression{standard input}:771:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000005$pb"{standard input}:771:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:762:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_33" minus "L00000000005$pb"{standard input}:762:symbol: "L_OBJC_SELECTOR_REFERENCES_33" can't be undefined in a subtraction expression{standard input}:748:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_29" minus "L00000000005$pb"{standard input}:748:symbol: "L_OBJC_SELECTOR_REFERENCES_29" can't be undefined in a subtraction expression{standard input}:743:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000005$pb"{standard input}:743:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:736:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_28" minus "L00000000005$pb"{standard input}:736:symbol: "L_OBJC_SELECTOR_REFERENCES_28" can't be undefined in a subtraction expression{standard input}:727:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000005$pb"{standard input}:727:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:719:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"{standard input}:719:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:712:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"{standard input}:712:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:703:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"{standard input}:703:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:699:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"{standard input}:699:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:691:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"{standard input}:691:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:685:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000005$pb"{standard input}:685:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression{standard input}:676:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"{standard input}:676:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:669:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"{standard input}:669:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:660:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"{standard input}:660:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:656:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"{standard input}:656:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:648:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000005$pb"{standard input}:648:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:641:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_27" minus "L00000000005$pb"{standard input}:641:symbol: "L_OBJC_SELECTOR_REFERENCES_27" can't be undefined in a subtraction expression{standard input}:632:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"{standard input}:632:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:628:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"{standard input}:628:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:620:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000005$pb"{standard input}:620:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:617:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000005$pb"{standard input}:617:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:608:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_26" minus "L00000000005$pb"{standard input}:608:symbol: "L_OBJC_SELECTOR_REFERENCES_26" can't be undefined in a subtraction expression{standard input}:599:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_25" minus "L00000000005$pb"{standard input}:599:symbol: "L_OBJC_SELECTOR_REFERENCES_25" can't be undefined in a subtraction expression{standard input}:595:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"{standard input}:595:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:585:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_24" minus "L00000000005$pb"{standard input}:585:symbol: "L_OBJC_SELECTOR_REFERENCES_24" can't be undefined in a subtraction expression{standard input}:575:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_23" minus "L00000000005$pb"{standard input}:575:symbol: "L_OBJC_SELECTOR_REFERENCES_23" can't be undefined in a subtraction expression{standard input}:567:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000005$pb"{standard input}:567:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:564:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000005$pb"{standard input}:564:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:561:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_6" minus "L00000000005$pb"{standard input}:561:symbol: "L_OBJC_CLASS_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:549:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_32" minus "L00000000005$pb"{standard input}:549:symbol: "L_OBJC_SELECTOR_REFERENCES_32" can't be undefined in a subtraction expression{standard input}:535:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_22" minus "L00000000005$pb"{standard input}:535:symbol: "L_OBJC_SELECTOR_REFERENCES_22" can't be undefined in a subtraction expression{standard input}:526:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_21" minus "L00000000005$pb"{standard input}:526:symbol: "L_OBJC_SELECTOR_REFERENCES_21" can't be undefined in a subtraction expression{standard input}:520:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_19" minus "L00000000005$pb"{standard input}:520:symbol: "L_OBJC_SELECTOR_REFERENCES_19" can't be undefined in a subtraction expression{standard input}:514:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000005$pb"{standard input}:514:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:507:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_20" minus "L00000000005$pb"{standard input}:507:symbol: "L_OBJC_SELECTOR_REFERENCES_20" can't be undefined in a subtraction expression{standard input}:501:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_31" minus "L00000000005$pb"{standard input}:501:symbol: "L_OBJC_SELECTOR_REFERENCES_31" can't be undefined in a subtraction expression{standard input}:494:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000005$pb"{standard input}:494:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:491:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_5" minus "L00000000005$pb"{standard input}:491:symbol: "L_OBJC_CLASS_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:373:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_18" minus "L00000000004$pb"{standard input}:373:symbol: "L_OBJC_SELECTOR_REFERENCES_18" can't be undefined in a subtraction expression{standard input}:342:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_17" minus "L00000000003$pb"{standard input}:342:symbol: "L_OBJC_SELECTOR_REFERENCES_17" can't be undefined in a subtraction expression{standard input}:307:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_14" minus "L00000000002$pb"{standard input}:307:symbol: "L_OBJC_SELECTOR_REFERENCES_14" can't be undefined in a subtraction expression{standard input}:301:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_13" minus "L00000000002$pb"{standard input}:301:symbol: "L_OBJC_SELECTOR_REFERENCES_13" can't be undefined in a subtraction expression{standard input}:298:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_4" minus "L00000000002$pb"{standard input}:298:symbol: "L_OBJC_CLASS_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:291:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"{standard input}:291:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:281:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_12" minus "L00000000002$pb"{standard input}:281:symbol: "L_OBJC_SELECTOR_REFERENCES_12" can't be undefined in a subtraction expression{standard input}:272:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_16" minus "L00000000002$pb"{standard input}:272:symbol: "L_OBJC_SELECTOR_REFERENCES_16" can't be undefined in a subtraction expression{standard input}:252:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_11" minus "L00000000002$pb"{standard input}:252:symbol: "L_OBJC_SELECTOR_REFERENCES_11" can't be undefined in a subtraction expression{standard input}:245:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000002$pb"{standard input}:245:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:242:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_3" minus "L00000000002$pb"{standard input}:242:symbol: "L_OBJC_CLASS_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:232:non-relocatable subtraction expression, "LC5" minus "L00000000002$pb"{standard input}:232:symbol: "LC5" can't be undefined in a subtraction expression{standard input}:230:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_10" minus "L00000000002$pb"{standard input}:230:symbol: "L_OBJC_SELECTOR_REFERENCES_10" can't be undefined in a subtraction expression{standard input}:223:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_9" minus "L00000000002$pb"{standard input}:223:symbol: "L_OBJC_SELECTOR_REFERENCES_9" can't be undefined in a subtraction expression{standard input}:219:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_2" minus "L00000000002$pb"{standard input}:219:symbol: "L_OBJC_CLASS_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:216:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_1" minus "L00000000002$pb"{standard input}:216:symbol: "L_OBJC_CLASS_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:209:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_8" minus "L00000000002$pb"{standard input}:209:symbol: "L_OBJC_SELECTOR_REFERENCES_8" can't be undefined in a subtraction expression{standard input}:202:non-relocatable subtraction expression, "LC2" minus "L00000000002$pb"{standard input}:202:symbol: "LC2" can't be undefined in a subtraction expression{standard input}:196:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_15" minus "L00000000002$pb"{standard input}:196:symbol: "L_OBJC_SELECTOR_REFERENCES_15" can't be undefined in a subtraction expression{standard input}:186:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_7" minus "L00000000002$pb"{standard input}:186:symbol: "L_OBJC_SELECTOR_REFERENCES_7" can't be undefined in a subtraction expression{standard input}:176:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_6" minus "L00000000002$pb"{standard input}:176:symbol: "L_OBJC_SELECTOR_REFERENCES_6" can't be undefined in a subtraction expression{standard input}:167:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_5" minus "L00000000002$pb"{standard input}:167:symbol: "L_OBJC_SELECTOR_REFERENCES_5" can't be undefined in a subtraction expression{standard input}:102:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_4" minus "L00000000001$pb"{standard input}:102:symbol: "L_OBJC_SELECTOR_REFERENCES_4" can't be undefined in a subtraction expression{standard input}:92:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:92:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:82:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_3" minus "L00000000001$pb"{standard input}:82:symbol: "L_OBJC_SELECTOR_REFERENCES_3" can't be undefined in a subtraction expression{standard input}:68:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_2" minus "L00000000001$pb"{standard input}:68:symbol: "L_OBJC_SELECTOR_REFERENCES_2" can't be undefined in a subtraction expression{standard input}:59:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_1" minus "L00000000001$pb"{standard input}:59:symbol: "L_OBJC_SELECTOR_REFERENCES_1" can't be undefined in a subtraction expression{standard input}:53:non-relocatable subtraction expression, "L_OBJC_SELECTOR_REFERENCES_0" minus "L00000000001$pb"{standard input}:53:symbol: "L_OBJC_SELECTOR_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:50:non-relocatable subtraction expression, "L_OBJC_CLASS_REFERENCES_0" minus "L00000000001$pb"{standard input}:50:symbol: "L_OBJC_CLASS_REFERENCES_0" can't be undefined in a subtraction expression{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol LC2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol LC5{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_31{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_32{standard input}:unknown:Undefined local symbol L_OBJC_CLASS_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_33{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_301(4@63"'imageskViewController' undeclared (first use in this function)301127449#145#150#0(6@74"/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m301127439#94#0#94#0#43"'*' undeclared (first use in this function)0(0#0#74"/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m4300911832#1915"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-adgjpixgmiejawfahkudmqwnxvgs/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o1#
 
 CCompileC build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
@@ -382,8 +586,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@54"Compile /Users/vinhboy/workspace/iphone/Imagesk/main.m300659509#300659509#0(0"0(0#0#46"/Users/vinhboy/workspace/iphone/Imagesk/main.m4300911832#1870"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-adgjpixgmiejawfahkudmqwnxvgs/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/main.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o0#
 
 CCompileC build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s300762581.244553
-e300762581.324061
+s300812082.348724
+e300812082.437303
 r1
 xCompileC
 xbuild/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o
@@ -392,11 +596,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m300762581#300762581#0(0"0(0#0#68"/Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m4300911832#2000"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-avwqvpjqwftimdehrigbkeukufym/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m -o /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o0#
+lSLF07#2@76"Compile /Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m300812082#300812082#0(0"0(0#0#68"/Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m4300911832#1906"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-btnudvezhxitguhjqrshsgtvahhq/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m -o /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskAppDelegate.o0#
 
 CCompileC build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o /Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s300777125.542276
-e300777125.743267
+s300812082.350798
+e300812082.455960
 r1
 xCompileC
 xbuild/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o
@@ -405,7 +609,9 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m300777125#300777125#0(0"0(0#0#74"/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m4300911832#2009"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-avwqvpjqwftimdehrigbkeukufym/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m -o /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o0#
+o/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m: In function '-[ImageskViewController connectionDidFinishLoading:]':
+o/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m:83: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UILabel *' when passing argument 1 of 'setImageLabel:' from distinct Objective-C type
+lSLF07#2@82"Compile /Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m300812082#300812082#0(387"/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m: In function '-[ImageskViewController connectionDidFinishLoading:]':/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m:83: warning: incompatible Objective-C types 'struct NSString *', expected 'struct UILabel *' when passing argument 1 of 'setImageLabel:' from distinct Objective-C type1(22@154"Incompatible Objective-C types 'struct NSString *', expected 'struct UILabel *' when passing argument 1 of 'setImageLabel:' from distinct Objective-C type300812082#144#243#0(6@74"/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m300812057#83#0#83#0#0"0(0#0#74"/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m4300911832#1915"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-btnudvezhxitguhjqrshsgtvahhq/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m -o /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/ImageskViewController.o0#
 
 CCompileC build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/XPathQuery.o /Users/vinhboy/workspace/iphone/imagesk/../Imagesk/XPathQuery.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s300762581.324170
@@ -421,8 +627,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@71"Compile /Users/vinhboy/workspace/iphone/imagesk/../Imagesk/XPathQuery.m300762581#300762581#0(0"0(0#0#63"/Users/vinhboy/workspace/iphone/imagesk/../Imagesk/XPathQuery.m4300911832#1987"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-avwqvpjqwftimdehrigbkeukufym/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/imagesk/../Imagesk/XPathQuery.m -o /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/XPathQuery.o0#
 
 CCompileC build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o /Users/vinhboy/workspace/iphone/imagesk/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s300762581.243153
-e300762581.300469
+s300779982.574386
+e300779982.690753
 r1
 xCompileC
 xbuild/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o
@@ -431,67 +637,90 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/vinhboy/workspace/iphone/imagesk/main.m300762581#300762581#0(0"0(0#0#46"/Users/vinhboy/workspace/iphone/imagesk/main.m4300911832#1964"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/include/libxml2 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-avwqvpjqwftimdehrigbkeukufym/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/imagesk/main.m -o /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o0#
+lSLF07#2@54"Compile /Users/vinhboy/workspace/iphone/imagesk/main.m300779982#300779982#0(0"0(0#0#46"/Users/vinhboy/workspace/iphone/imagesk/main.m4300911832#1870"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-btnudvezhxitguhjqrshsgtvahhq/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/imagesk/main.m -o /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/main.o0#
 
 CCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
-s300677179.041893
-e300677179.375449
+s301052520.088934
+e301052520.440871
 r1
 xCompileXIB
 x/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
-lSLF07#2@36"CompileXIB ImageskViewController.xib300677179#300677179#0(0"0(0#0#65"/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib4300911832#507"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/ImageskViewController.nib /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib0#
+lSLF07#2@36"CompileXIB ImageskViewController.xib301052520#301052520#0(0"0(0#0#65"/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib4300911832#507"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/ImageskViewController.nib /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib0#
 
 CCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
-s300659508.289562
-e300659508.652972
+s300813009.867299
+e300813010.230402
 r1
 xCompileXIB
 x/Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib300659508#300659508#0(0"0(0#0#54"/Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib4300911832#485"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/MainWindow.nib /Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib0#
+lSLF07#2@25"CompileXIB MainWindow.xib300813009#300813010#0(0"0(0#0#54"/Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib29555074424701028#485"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/MainWindow.nib /Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib0#
 
 CCompileXIB /Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.xib
-r0
+s300812042.656175
+e300812043.038563
+r1
+xCompileXIB
+x/Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.xib
+lSLF07#2@36"CompileXIB ImageskViewController.xib300812042#300812043#0(0"0(0#0#65"/Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.xib4300911832#507"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/ImageskViewController.nib /Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.xib0#
 
 CCompileXIB /Users/vinhboy/workspace/iphone/imagesk/MainWindow.xib
 r0
 
+CCpResource build/Debug-iphonesimulator/Imagesk.app/imagesk.gif imagesk.gif
+s300821388.736704
+e300821388.764221
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Imagesk.app/imagesk.gif
+ximagesk.gif
+lSLF07#2@16"Copy imagesk.gif300821388#300821388#0(0"0(0#0#51"/Users/vinhboy/workspace/iphone/Imagesk/imagesk.gif4300911832#458"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vinhboy/workspace/iphone/Imagesk/imagesk.gif /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app0#
+
+CCpResource build/Debug-iphonesimulator/Imagesk.app/imageupload.png imageupload.png
+s300823435.761337
+e300823435.768438
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Imagesk.app/imageupload.png
+ximageupload.png
+lSLF07#2@20"Copy imageupload.png300823435#300823435#0(0"0(0#0#55"/Users/vinhboy/workspace/iphone/Imagesk/imageupload.png4300911832#462"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/vinhboy/workspace/iphone/Imagesk/imageupload.png /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app0#
+
 CGenerateDSYMFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
-s300722838.535654
-e300722838.562916
+s301052278.472592
+e301052278.489500
 r1
 xGenerateDSYMFile
 x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM
 x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Imagesk.app.dSYM build/Debug-iphonesimulator/Imagesk.app/Imagesk300722838#300722838#0(0"0(0#0#87"/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk4300911832#386"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk -o /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Imagesk.app.dSYM build/Debug-iphonesimulator/Imagesk.app/Imagesk301052278#301052278#0(0"0(0#0#87"/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk4300911832#386"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk -o /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM0#
 
 CGenerateDSYMFile /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
-s300777125.772411
-e300777125.789895
+s300812082.478288
+e300812082.494382
 r1
 xGenerateDSYMFile
 x/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM
 x/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
-lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Imagesk.app.dSYM build/Debug-iphonesimulator/Imagesk.app/Imagesk300777125#300777125#0(0"0(0#0#87"/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk4300911832#386"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk -o /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM0#
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Imagesk.app.dSYM build/Debug-iphonesimulator/Imagesk.app/Imagesk300812082#300812082#0(0"0(0#0#87"/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk4300911832#386"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk -o /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app.dSYM0#
 
 CLd /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk normal i386
-s300722838.515061
-e300722838.535553
+s301052278.451582
+e301052278.472488
 r1
 xLd
 x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
 xnormal
 xi386
-lSLF07#2@92"Link /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk300722838#300722838#0(0"0(0#0#0"4300911832#869"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -filelist /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/Imagesk.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk0#
+lSLF07#2@92"Link /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk301052278#301052278#0(0"0(0#0#0"4300911832#869"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator -filelist /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/Imagesk.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk0#
 
 CLd /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk normal i386
-s300777125.743361
-e300777125.772304
+s300812082.456055
+e300812082.478174
 r1
 xLd
 x/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk
 xnormal
 xi386
-lSLF07#2@92"Link /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk300777125#300777125#0(0"0(0#0#0"4300911832#876"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -filelist /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/Imagesk.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -lxml2 -o /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk0#
+lSLF07#2@92"Link /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk300812082#300812082#0(0"0(0#0#0"4300911832#869"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -filelist /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Objects-normal/i386/Imagesk.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app/Imagesk0#
 
 CProcessInfoPlistFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app/Info.plist Imagesk-Info.plist
 s300659508.285985
@@ -534,6 +763,19 @@ lSLF07#2@29"Precompile Imagesk_Prefix.pch300762580#300762581#0(0"0(0#0#58"/Users
 CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-axxvdflqhpqtkuddovsyczpwrsxi/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 r0
 
+CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-btnudvezhxitguhjqrshsgtvahhq/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s300779981.072123
+e300779982.574202
+r1
+xProcessPCH
+x/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-btnudvezhxitguhjqrshsgtvahhq/Imagesk_Prefix.pch.gch
+xImagesk_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Imagesk_Prefix.pch300779981#300779982#0(0"0(0#0#58"/Users/vinhboy/workspace/iphone/imagesk/Imagesk_Prefix.pch4300911832#1761"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -c /Users/vinhboy/workspace/iphone/imagesk/Imagesk_Prefix.pch -o /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-btnudvezhxitguhjqrshsgtvahhq/Imagesk_Prefix.pch.gch0#
+
 CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-dkfvtsnghaxkjyfpzfiwxtsenbfu/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 s300762160.158011
 e300762160.389426
@@ -562,18 +804,18 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@29"Precompile Imagesk_Prefix.pch300762393#300762394#0(0"0(0#0#58"/Users/vinhboy/workspace/iphone/imagesk/Imagesk_Prefix.pch4300911832#1853"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator -I/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/include -I/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.3.sdk/usr/lib/libxml2.2 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources/i386 -I/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphonesimulator/Imagesk.build/DerivedSources -c /Users/vinhboy/workspace/iphone/imagesk/Imagesk_Prefix.pch -o /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eksirwfnetkcxqdwozosbnzmqczs/Imagesk_Prefix.pch.gch0#
 
 CTouch /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app
-s300722838.563007
-e300722838.565634
+s301052520.441489
+e301052520.444151
 r1
 xTouch
 x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app
-lSLF07#2@85"Touch /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app300722838#300722838#0(0"0(0#0#0"4300911832#280"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app0#
+lSLF07#2@85"Touch /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app301052520#301052520#0(0"0(0#0#0"4300911832#280"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphonesimulator/Imagesk.app0#
 
 CTouch /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app
-s300777125.789983
-e300777125.794227
+s300812082.494476
+e300812082.497394
 r1
 xTouch
 x/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app
-lSLF07#2@85"Touch /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app300777125#300777125#0(0"0(0#0#0"4300911832#280"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app0#
+lSLF07#2@85"Touch /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app300812082#300812082#0(0"0(0#0#0"4300911832#280"    cd /Users/vinhboy/workspace/iphone/imagesk    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphonesimulator/Imagesk.app0#
 
