@@ -1,777 +1,0 @@
-TImagesk
-v7
-r0
-t301990421.082822
-cCheck dependencies
-cCpResource build/Debug-iphoneos/Imagesk.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Info.plist Imagesk-Info.plist
-cCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
-cCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
-cCopyPNGFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/imageupload.png imageupload.png
-cCopyPNGFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/icon.png icon.png
-cProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eafkjpitpvhatvfdxzsizmbvhcpv/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eqrzkotondqxyxevhdprlupnsnqc/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/main.o /Users/vinhboy/workspace/iphone/Imagesk/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskViewController.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/main.o /Users/vinhboy/workspace/iphone/Imagesk/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskViewController.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk normal armv6
-cLd /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk normal armv7
-cCreateUniversalBinary /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk normal "armv6 armv7"
-cGenerateDSYMFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app.dSYM /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk
-cProcessProductPackaging "/Users/vinhboy/Library/MobileDevice/Provisioning Profiles/065F0DB7-50CC-4851-8C1E-A5B5167264DB.mobileprovision" /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision
-cTouch /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent
-cCodeSign /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C3671890000000000000110
-t1278636425
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-c000000004C2A7DA700000000000001A7
-t1277853095
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-c000000004C2A7DA700000000000001E5
-t1277853095
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C296E2A00000000000009CD
-t1277783594
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C296F120000000002D563E0
-t1277783826
-s47539168
-
-N/Users/vinhboy/Library/MobileDevice/Provisioning Profiles/065F0DB7-50CC-4851-8C1E-A5B5167264DB.mobileprovision
-c000000004C477DC70000000000001BF0
-t1279753671
-s7152
-
-N/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.h
-c000000004C4F8FBB00000000000003BC
-t1280282555
-s956
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m
-c000000004C4FCA800000000000001992
-t1280297600
-s6546
-i"ImageskViewController.h"
-
-N/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.h
-c000000004C41098B00000000000001DC
-t1279330699
-s476
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m
-c000000004C3E22BD00000000000003CE
-t1279140541
-s974
-i"ImageskAppDelegate.h"
-i"ImageskViewController.h"
-
-N/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.h
-c000000004C4F8FBB00000000000003BC
-t1280282555
-s956
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
-c000000004C4F90120000000000006E2D
-t1280282642
-s28205
-
-N/Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch
-c000000004C3B767A00000000000000B7
-t1278965370
-s183
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
-c000000004C3DD31D0000000000003E11
-t1279120157
-s15889
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app
-t1280297621
-s442
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app.dSYM
-t1280297618
-s102
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk
-t1280297618
-s77296
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/ImageskViewController.nib
-t1280297525
-s1924
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Info.plist
-t1279753804
-s726
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/MainWindow.nib
-t1279753805
-s984
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/PkgInfo
-t1279753804
-s8
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/ResourceRules.plist
-t1279753804
-s485
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision
-t1279753807
-s7152
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/icon.png
-t1279762587
-s5707
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/imageupload.png
-t1279753805
-s24299
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent
-t1279753807
-s420
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk
-t1280297618
-s30384
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk.LinkFileList
-c000000004C477E4C000000000000017E
-t1279753804
-s382
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskAppDelegate.o
-t1280297526
-s47320
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskViewController.o
-t1280297618
-s72924
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/main.o
-t1279753807
-s6440
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk
-t1280297618
-s30384
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk.LinkFileList
-c000000004C477E4C000000000000017E
-t1279753804
-s382
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskAppDelegate.o
-t1280297527
-s47236
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskViewController.o
-t1280297618
-s72396
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/main.o
-t1279753807
-s6424
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv6/ImageskAppDelegate.plist
-t1280279789
-s276
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv6/ImageskViewController.plist
-t1280279789
-s276
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv6/main.plist
-t1280279789
-s276
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv7/ImageskAppDelegate.plist
-t1280279789
-s276
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv7/ImageskViewController.plist
-t1280279789
-s276
-
-N/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv7/main.plist
-t1280279789
-s276
-
-N/Users/vinhboy/workspace/iphone/Imagesk/icon.png
-c000000004C47A09300000000000012B9
-t1279762579
-s4793
-
-N/Users/vinhboy/workspace/iphone/Imagesk/imageupload.png
-c000000004C45A61F0000000000005242
-t1279632927
-s21058
-
-N/Users/vinhboy/workspace/iphone/Imagesk/main.m
-c000000004C3B767A0000000000000164
-t1278965370
-s356
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.h
-c000000004C4F8FBB00000000000003BC
-t1280282555
-s956
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m
-c000000004C4FCA800000000000001992
-t1280297600
-s6546
-i"ImageskViewController.h"
-
-N/Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.h
-c000000004C41098B00000000000001DC
-t1279330699
-s476
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m
-c000000004C3E22BD00000000000003CE
-t1279140541
-s974
-i"ImageskAppDelegate.h"
-i"ImageskViewController.h"
-
-N/Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.h
-c000000004C4F8FBB00000000000003BC
-t1280282555
-s956
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.xib
-c000000004C4F90120000000000006E2D
-t1280282642
-s28205
-
-N/Users/vinhboy/workspace/iphone/imagesk/Imagesk_Prefix.pch
-c000000004C3B767A00000000000000B7
-t1278965370
-s183
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/vinhboy/workspace/iphone/imagesk/MainWindow.xib
-c000000004C3DD31D0000000000003E11
-t1279120157
-s15889
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app
-t1280297621
-s442
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app.dSYM
-t1280297618
-s102
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk
-t1280297618
-s77296
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/ImageskViewController.nib
-t1280297525
-s1924
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/Info.plist
-t1279753804
-s726
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/MainWindow.nib
-t1279753805
-s984
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/PkgInfo
-t1279753804
-s8
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/ResourceRules.plist
-t1279753804
-s485
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision
-t1279753807
-s7152
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/icon.png
-t1279762587
-s5707
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/imageupload.png
-t1279753805
-s24299
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk
-t1280297618
-s30384
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk.LinkFileList
-c000000004C477E4C000000000000017E
-t1279753804
-s382
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskAppDelegate.o
-t1280297526
-s47320
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskViewController.o
-t1280297618
-s72924
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/main.o
-t1279753807
-s6440
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk
-t1280297618
-s30384
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk.LinkFileList
-c000000004C477E4C000000000000017E
-t1279753804
-s382
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskAppDelegate.o
-t1280297527
-s47236
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskViewController.o
-t1280297618
-s72396
-
-N/Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/main.o
-t1279753807
-s6424
-
-N/Users/vinhboy/workspace/iphone/imagesk/icon.png
-c000000004C47A09300000000000012B9
-t1279762579
-s4793
-
-N/Users/vinhboy/workspace/iphone/imagesk/imageupload.png
-c000000004C45A61F0000000000005242
-t1279632927
-s21058
-
-N/Users/vinhboy/workspace/iphone/imagesk/main.m
-c000000004C3B767A0000000000000164
-t1278965370
-s356
-i<UIKit/UIKit.h>
-
-N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-cahjboirwkgrjqfomqdvftykdmaj/Imagesk_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eafkjpitpvhatvfdxzsizmbvhcpv/Imagesk_Prefix.pch.gch
-t1279753807
-s9831984
-
-N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-enbugvhjbrkuwgdteogrqqgsvxdf/Imagesk_Prefix.pch.pth
-t1280279789
-s2605952
-
-N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eqrzkotondqxyxevhdprlupnsnqc/Imagesk_Prefix.pch.gch
-t1279753806
-s10290736
-
-N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-gstxdjldathydqcvddbupxyqqdps/Imagesk_Prefix.pch.pth
-t1280279789
-s2606128
-
-N/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-hfhozabtmnsqkoctblchfqyxmbzu/Imagesk_Prefix.pch.gch
-t2
-s0
-
-NImagesk-Info.plist
-c000000004C3B767A000000000000038D
-t1278965370
-s909
-
-CAnalyze /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m
-s301972589.403220
-e301972589.452208
-r1
-xAnalyze
-x/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m
-lSLF07#2@82"Analyze /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m301972589#301972589#0(0"0(0#0#74"/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m8603377088#1809"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv7 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-gstxdjldathydqcvddbupxyqqdps/Imagesk_Prefix.pch --analyze /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv7/ImageskViewController.plist0#
-
-CAnalyze /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m
-s301972589.396370
-e301972589.450925
-r1
-xAnalyze
-x/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m
-lSLF07#2@76"Analyze /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m301972589#301972589#0(0"0(0#0#68"/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m8603798240#1800"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv7 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-gstxdjldathydqcvddbupxyqqdps/Imagesk_Prefix.pch --analyze /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv7/ImageskAppDelegate.plist0#
-
-CAnalyze /Users/vinhboy/workspace/iphone/Imagesk/main.m
-s301972589.346137
-e301972589.403127
-r1
-xAnalyze
-x/Users/vinhboy/workspace/iphone/Imagesk/main.m
-lSLF07#2@54"Analyze /Users/vinhboy/workspace/iphone/Imagesk/main.m301972589#301972589#0(0"0(0#0#46"/Users/vinhboy/workspace/iphone/Imagesk/main.m8604343584#1764"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv7 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-gstxdjldathydqcvddbupxyqqdps/Imagesk_Prefix.pch --analyze /Users/vinhboy/workspace/iphone/Imagesk/main.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/StaticAnalyzer/normal/armv7/main.plist0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies301990418#301990418#0(0"0(0#1#0"8604564576#0"0#
-
-CCodeSign /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app
-s301990418.758536
-e301990421.082727
-r1
-xCodeSign
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app
-lSLF07#2@41"CodeSign build/Debug-iphoneos/Imagesk.app301990418#301990421#0(0"0(0#0#72"/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app8605850976#649"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: vinh pham (LBH96XH9FJ)" --resource-rules=/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/ResourceRules.plist --entitlements /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app0#
-
-CCodeSign /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app
-r0
-
-CCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s301990325.461977
-e301990326.373731
-r1
-xCompileC
-xbuild/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskAppDelegate.o
-x/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m301990325#301990326#0(0"0(0#0#68"/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m8605737280#1771"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv6 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eafkjpitpvhatvfdxzsizmbvhcpv/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskAppDelegate.o0#
-
-CCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskViewController.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s301990418.322287
-e301990418.512430
-r1
-xCompileC
-xbuild/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskViewController.o
-x/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m301990418#301990418#0(0"0(0#0#74"/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m7020393217055880192#1780"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv6 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eafkjpitpvhatvfdxzsizmbvhcpv/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskViewController.o0#
-
-CCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/main.o /Users/vinhboy/workspace/iphone/Imagesk/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s301446607.015597
-e301446607.132159
-r1
-xCompileC
-xbuild/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/main.o
-x/Users/vinhboy/workspace/iphone/Imagesk/main.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/vinhboy/workspace/iphone/Imagesk/main.m301446607#301446607#0(0"0(0#0#46"/Users/vinhboy/workspace/iphone/Imagesk/main.m8610770976#1735"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv6 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eafkjpitpvhatvfdxzsizmbvhcpv/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/main.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/main.o0#
-
-CCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s301990326.373943
-e301990327.740124
-r1
-xCompileC
-xbuild/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskAppDelegate.o
-x/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m301990326#301990327#0(0"0(0#0#68"/Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m8604177856#1771"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv7 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eqrzkotondqxyxevhdprlupnsnqc/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/Classes/ImageskAppDelegate.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskAppDelegate.o0#
-
-CCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskViewController.o /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s301990418.373079
-e301990418.513546
-r1
-xCompileC
-xbuild/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskViewController.o
-x/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m301990418#301990418#0(0"0(0#0#74"/Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m8606177024#1780"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv7 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eqrzkotondqxyxevhdprlupnsnqc/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/Classes/../ImageskViewController.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskViewController.o0#
-
-CCompileC build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/main.o /Users/vinhboy/workspace/iphone/Imagesk/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s301446607.156858
-e301446607.226055
-r1
-xCompileC
-xbuild/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/main.o
-x/Users/vinhboy/workspace/iphone/Imagesk/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/vinhboy/workspace/iphone/Imagesk/main.m301446607#301446607#0(0"0(0#0#46"/Users/vinhboy/workspace/iphone/Imagesk/main.m8608551840#1735"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv7 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -include /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eqrzkotondqxyxevhdprlupnsnqc/Imagesk_Prefix.pch -c /Users/vinhboy/workspace/iphone/Imagesk/main.m -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/main.o0#
-
-CCompileC build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/ImageskViewController.o /Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/main.o /Users/vinhboy/workspace/iphone/imagesk/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskAppDelegate.o /Users/vinhboy/workspace/iphone/imagesk/Classes/ImageskAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/ImageskViewController.o /Users/vinhboy/workspace/iphone/imagesk/Classes/../ImageskViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/main.o /Users/vinhboy/workspace/iphone/imagesk/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
-s301990316.939911
-e301990325.461448
-r1
-xCompileXIB
-x/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@36"CompileXIB ImageskViewController.xib301990316#301990325#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#65"/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib30962724186357872#567"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/ImageskViewController.nib /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
-s301446604.823276
-e301446605.401700
-r1
-xCompileXIB
-x/Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib301446604#301446605#0(0"0(0#0#54"/Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib8606642240#545"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/MainWindow.nib /Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk0#
-
-CCompileXIB /Users/vinhboy/workspace/iphone/imagesk/ImageskViewController.xib
-r0
-
-CCompileXIB /Users/vinhboy/workspace/iphone/imagesk/MainWindow.xib
-r0
-
-CCopyPNGFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/icon.png icon.png
-s301455387.719772
-e301455387.764145
-r1
-xCopyPNGFile
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/icon.png
-xicon.png
-lSLF07#2@62"CopyPNGFile build/Debug-iphoneos/Imagesk.app/icon.png icon.png301455387#301455387#0(0"0(0#0#48"/Users/vinhboy/workspace/iphone/Imagesk/icon.png8607042944#559"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/vinhboy/workspace/iphone/Imagesk/icon.png /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/icon.png0#
-
-CCopyPNGFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/imageupload.png imageupload.png
-s301446605.401793
-e301446605.603814
-r1
-xCopyPNGFile
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/imageupload.png
-ximageupload.png
-lSLF07#2@76"CopyPNGFile build/Debug-iphoneos/Imagesk.app/imageupload.png imageupload.png301446605#301446605#0(0"0(0#0#55"/Users/vinhboy/workspace/iphone/Imagesk/imageupload.png8608746208#573"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/vinhboy/workspace/iphone/Imagesk/imageupload.png /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/imageupload.png0#
-
-CCopyPNGFile /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/icon.png icon.png
-r0
-
-CCopyPNGFile /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/imageupload.png imageupload.png
-r0
-
-CCpResource build/Debug-iphoneos/Imagesk.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-s301446604.776183
-e301446604.823186
-r1
-xCpResource
-xbuild/Debug-iphoneos/Imagesk.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist301446604#301446604#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist5922070114188800000#482"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/ResourceRules.plist /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app0#
-
-CCreateUniversalBinary /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk normal "armv6 armv7"
-s301990418.543503
-e301990418.546856
-r1
-xCreateUniversalBinary
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk
-xnormal
-xarmv6 armv7
-lSLF07#2@83"CreateUniversalBinary build/Debug-iphoneos/Imagesk.app/Imagesk normal "armv6 armv7"301990418#301990418#0(0"0(0#0#51"/Users/vinhboy/workspace/iphone/Imagesk/armv6 armv78596577952#522"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk -output /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk0#
-
-CCreateUniversalBinary /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk normal "armv6 armv7"
-r0
-
-CGenerateDSYMFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app.dSYM /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk
-s301990418.546945
-e301990418.755522
-r1
-xGenerateDSYMFile
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app.dSYM
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk
-lSLF07#2@95"GenerateDSYMFile build/Debug-iphoneos/Imagesk.app.dSYM build/Debug-iphoneos/Imagesk.app/Imagesk301990418#301990418#0(0"0(0#0#80"/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk8608770048#365"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk -o /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app.dSYM0#
-
-CGenerateDSYMFile /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app.dSYM /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/Imagesk
-r0
-
-CLd /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk normal armv6
-s301990418.512540
-e301990418.543112
-r1
-xLd
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk
-xnormal
-xarmv6
-lSLF07#2@122"Link /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk301990418#301990418#0(0"0(0#0#0"8601396608#864"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -filelist /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk0#
-
-CLd /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk normal armv7
-s301990418.513621
-e301990418.543433
-r1
-xLd
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk
-xnormal
-xarmv7
-lSLF07#2@122"Link /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk301990418#301990418#0(0"0(0#0#0"8601292704#864"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv IPHONEOS_DEPLOYMENT_TARGET 4.0    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -L/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -filelist /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk.LinkFileList -dead_strip -miphoneos-version-min=4.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk0#
-
-CLd /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv6/Imagesk normal armv6
-r0
-
-CLd /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Objects-normal/armv7/Imagesk normal armv7
-r0
-
-CProcessInfoPlistFile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Info.plist Imagesk-Info.plist
-s301446604.780828
-e301446604.788778
-r1
-xProcessInfoPlistFile
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Info.plist
-xImagesk-Info.plist
-lSLF07#2@26"Process Imagesk-Info.plist301446604#301446604#0(0"0(0#0#58"/Users/vinhboy/workspace/iphone/Imagesk/Imagesk-Info.plist8608196800#566"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Imagesk-Info.plist -genpkginfo /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/ResourceRules.plist -o /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/Info.plist0#
-
-CProcessInfoPlistFile /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/Info.plist Imagesk-Info.plist
-r0
-
-CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-cahjboirwkgrjqfomqdvftykdmaj/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eafkjpitpvhatvfdxzsizmbvhcpv/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s301446605.648480
-e301446607.015447
-r1
-xProcessPCH
-x/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eafkjpitpvhatvfdxzsizmbvhcpv/Imagesk_Prefix.pch.gch
-xImagesk_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile Imagesk_Prefix.pch301446605#301446607#0(0"0(0#0#58"/Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch8608190080#1632"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv6 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -c /Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch -o /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eafkjpitpvhatvfdxzsizmbvhcpv/Imagesk_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-enbugvhjbrkuwgdteogrqqgsvxdf/Imagesk_Prefix.pch.pth Imagesk_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s301972588.726805
-e301972589.168502
-r1
-xProcessPCH
-x/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-enbugvhjbrkuwgdteogrqqgsvxdf/Imagesk_Prefix.pch.pth
-xImagesk_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@29"Precompile Imagesk_Prefix.pch301972588#301972589#0(0"0(0#0#58"/Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch8603281280#1643"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv6 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -c /Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch -o /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-enbugvhjbrkuwgdteogrqqgsvxdf/Imagesk_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eqrzkotondqxyxevhdprlupnsnqc/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s301446605.649582
-e301446606.886413
-r1
-xProcessPCH
-x/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eqrzkotondqxyxevhdprlupnsnqc/Imagesk_Prefix.pch.gch
-xImagesk_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@29"Precompile Imagesk_Prefix.pch301446605#301446606#0(0"0(0#0#58"/Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch8608122496#1632"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv7 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -c /Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch -o /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-eqrzkotondqxyxevhdprlupnsnqc/Imagesk_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-gstxdjldathydqcvddbupxyqqdps/Imagesk_Prefix.pch.pth Imagesk_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s301972588.727842
-e301972589.222052
-r1
-xProcessPCH
-x/var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-gstxdjldathydqcvddbupxyqqdps/Imagesk_Prefix.pch.pth
-xImagesk_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@29"Precompile Imagesk_Prefix.pch301972588#301972589#0(0"0(0#0#58"/Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch8603131680#1643"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -fasm-blocks -gdwarf-2 -fvisibility=hidden -mthumb -miphoneos-version-min=4.0 -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-generated-files.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-own-target-headers.hmap -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-all-target-headers.hmap -iquote /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk-project-headers.hmap -F/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos -I/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/include -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources/armv7 -I/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/DerivedSources -c /Users/vinhboy/workspace/iphone/Imagesk/Imagesk_Prefix.pch -o /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-gstxdjldathydqcvddbupxyqqdps/Imagesk_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/wB/wB-QZHoPEbqhWRHkJOQ90k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Imagesk_Prefix-hfhozabtmnsqkoctblchfqyxmbzu/Imagesk_Prefix.pch.gch Imagesk_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CProcessProductPackaging "/Users/vinhboy/Library/MobileDevice/Provisioning Profiles/065F0DB7-50CC-4851-8C1E-A5B5167264DB.mobileprovision" /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision
-s301446607.899701
-e301446607.900936
-r1
-xProcessProductPackaging
-x/Users/vinhboy/Library/MobileDevice/Provisioning Profiles/065F0DB7-50CC-4851-8C1E-A5B5167264DB.mobileprovision
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision
-lSLF07#2@194"ProcessProductPackaging "/Users/vinhboy/Library/MobileDevice/Provisioning Profiles/065F0DB7-50CC-4851-8C1E-A5B5167264DB.mobileprovision" build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision301446607#301446607#0(0"0(0#0#97"/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision8601686560#427"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/vinhboy/Library/MobileDevice/Provisioning Profiles/065F0DB7-50CC-4851-8C1E-A5B5167264DB.mobileprovision" -o /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision0#
-
-CProcessProductPackaging "/Users/vinhboy/Library/MobileDevice/Provisioning Profiles/065F0DB7-50CC-4851-8C1E-A5B5167264DB.mobileprovision" /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app/embedded.mobileprovision
-r0
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent
-s301446607.924546
-e301446607.956990
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent
-lSLF07#2@175"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent301446607#301446607#0(0"0(0#0#102"/Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent8610754880#434"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/vinhboy/workspace/iphone/Imagesk/build/Imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/Entitlements.plist /Users/vinhboy/workspace/iphone/imagesk/build/imagesk.build/Debug-iphoneos/Imagesk.build/Imagesk.xcent
-r0
-
-CTouch /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app
-s301990418.755716
-e301990418.758365
-r1
-xTouch
-x/Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app
-lSLF07#2@78"Touch /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app301990418#301990418#0(0"0(0#0#0"8606136384#266"    cd /Users/vinhboy/workspace/iphone/Imagesk    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/vinhboy/workspace/iphone/Imagesk/build/Debug-iphoneos/Imagesk.app0#
-
-CTouch /Users/vinhboy/workspace/iphone/imagesk/build/Debug-iphoneos/Imagesk.app
-r0
-
