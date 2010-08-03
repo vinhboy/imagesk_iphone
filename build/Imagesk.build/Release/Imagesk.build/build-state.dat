@@ -1,0 +1,63 @@
+TImagesk
+v7
+r1
+
+N/Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
+c000000004C417AE20000000000007275
+t1279359714
+s29301
+
+N/Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
+c000000004C3DD31D0000000000003E11
+t1279120157
+s15889
+
+N/Users/vinhboy/workspace/iphone/Imagesk/build/Release/Imagesk.app
+t2
+s0
+
+N/Users/vinhboy/workspace/iphone/Imagesk/build/Release/Imagesk.app/Contents/Info.plist
+t2
+s0
+
+N/Users/vinhboy/workspace/iphone/Imagesk/build/Release/Imagesk.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/vinhboy/workspace/iphone/Imagesk/build/Release/Imagesk.app/Contents/Resources/ImageskViewController.nib
+t2
+s0
+
+N/Users/vinhboy/workspace/iphone/Imagesk/build/Release/Imagesk.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/vinhboy/workspace/iphone/Imagesk/build/Release/Imagesk.app/Contents/Resources/imageupload.png
+t2
+s0
+
+N/Users/vinhboy/workspace/iphone/Imagesk/imageupload.png
+c000000004C45A61F0000000000005242
+t1279632927
+s21058
+
+NImagesk-Info.plist
+c000000004C3B767A000000000000038D
+t1278965370
+s909
+
+CCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/ImageskViewController.xib
+r0
+
+CCompileXIB /Users/vinhboy/workspace/iphone/Imagesk/MainWindow.xib
+r0
+
+CCpResource build/Release/Imagesk.app/Contents/Resources/imageupload.png imageupload.png
+r0
+
+CProcessInfoPlistFile /Users/vinhboy/workspace/iphone/Imagesk/build/Release/Imagesk.app/Contents/Info.plist Imagesk-Info.plist
+r0
+
+CTouch /Users/vinhboy/workspace/iphone/Imagesk/build/Release/Imagesk.app
+r0
+
